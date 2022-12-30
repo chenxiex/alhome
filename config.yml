@@ -48,7 +48,7 @@ params:
         
 
           This is my home page.
-        imageUrl: "/images/profile.png"
+        imageUrl: "/images/profile.webp"
         imageTitle: my image
         # imageWidth: 120
         # imageHeight: 120
