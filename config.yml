@@ -1,5 +1,5 @@
-baseURL: # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
-title: charlola.mode
+baseURL: https://anlor.top # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
+title: 安洛的主页
 paginate: 5
 theme: charlolamode
 
@@ -10,9 +10,9 @@ menu:
         - name: Contact
           url: contact/
           weight: 30
-        - name: Articles
-          url: articles/
-          weight: 20
+      #  - name: Articles
+        #  url: articles/
+        #  weight: 20
         - name: Projects
           url: projects
           weight: 15
@@ -27,7 +27,7 @@ menu:
 
 
 params:
-    author: Author's Name
+    author: Anlor
 
 
     defaultTheme: auto
@@ -41,32 +41,32 @@ params:
 
     profileMode:
         enabled: true
-        title: Joe Doe
+        title: 安洛(Anlor)
         description: |
 
-          Hello, I am Joe.
-           I am a software developer. 
+          Hello, I am Anlor, a computer science student. 
         
 
-          This is a minimalistic theme template for websites.
+          This is my home page.
         imageUrl: "/images/profile.png"
         imageTitle: my image
         # imageWidth: 120
         # imageHeight: 120
         buttons:
-            - name: Don't click me
-              url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
-    mainSections:
-      - articles
+            - name: Drive
+              url: https://alspace.anlor.top/
+            - name: Blog
+              url: https://alblog.anlor.top/
+    # mainSections:
+      # - articles
 
     socialIcons:
-        - name: buymeacoffee
-          url: "https://ko-fi.com/heycharlola"
         - name: github
-          url: "https://github.com/charlola"
-        - name: linkedin
-          url: "https://www.linkedin.com/in/heycharlola/"
-
+          url: "https://github.com/chenxiex"
+        - name: email
+          url: "mailto://anlor@anlor.top"
+        - name: zhihu
+          url: "https://www.zhihu.com/people/qi-dian-47-70"
       # add more social icons. find more in svg.html file
       # - name: youtube
       #   url: yoururl
@@ -79,10 +79,10 @@ params:
     # change favicon in images folder (icon for web tab)
     assets:
           favicon: "/images/favicon.ico"
-          favicon16x16: "/images/favicon-16x16.png"
+          #favicon16x16: "/images/favicon-16x16.png"
           favicon32x32: "/images/favicon-32x32.png"
-          apple_touch_icon: "/images/apple-touch-icon.png"
-          safari_pinned_tab: "/images/apple-touch-icon.png"
+          apple_touch_icon: "/images/favicon-128x128.png"
+          safari_pinned_tab: "/images/favicon-128x128.png"
 
 
 
