@@ -1,3 +1,7 @@
+## anlor.top
+This is the my personal home page on [anlor](https://anlor.top)  
+powered by hugo and charlola theme. The original README from charlola is shown below.
+
 ### charlola.mode
 
 
