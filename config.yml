@@ -67,6 +67,8 @@ params:
           url: "mailto://anlor@anlor.top"
         - name: zhihu
           url: "https://www.zhihu.com/people/qi-dian-47-70"
+        - name: luogu
+          url: "https://www.luogu.com.cn/user/76185"
       # add more social icons. find more in svg.html file
       # - name: youtube
       #   url: yoururl
